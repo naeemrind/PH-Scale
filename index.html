@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1, initial-scale=1.0" />
     <title>TEST</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        h2 {
-            color: blue;
+        .internal {
+            color: seagreen;
         }
     </style>
   <body>
-    <h1 style="color: red;">This is styled by inline css</h1>
-    <h2>This one is styled by internal css</h2>
-    <h3>This one is styled by external CSS</h3>
-    <h3>This one is styled by external CSS</h3>
-    <h3>This one is styled by external CSS</h3>
+    <h1 class="heading1">Styled by !important Keyword</h1>
+    <h1 style="color: #0ce6e6;" class="heading" id="heading">Styled by Inline styling</h1>
+    <h1 class="heading3" id="heading3">Styled by ID Selector</h1>
+    <h1 class="heading4" id="heading4">Styled by Class Selector</h1>
+    <h1 class="internal">Styled by Internal Selector</h1>
+    <h1>Styled by Type Selector</h1>
   </body>
 </html>
